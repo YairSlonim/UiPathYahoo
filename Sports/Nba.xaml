@@ -1,0 +1,171 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Nba" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="844.8,1898.4" sap2010:WorkflowViewState.IdRef="Nba_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="68">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.Testing</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.Reflection</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="46">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Testing</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Nba" sap:VirtualizedContainerService.HintSize="592,1833.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:Int32" Name="threePointAvgInt" />
+      <Variable x:TypeArguments="x:String" Name="threePointsAvg" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Yahoo | Mail, Weather, Search, Politics, News, Finance, Sports &amp; Videos" sap:VirtualizedContainerService.HintSize="529.6,1721.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="61063596-7f7b-49e0-9245-23d91e70bd6b" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="496,1504.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Sports'" sap:VirtualizedContainerService.HintSize="433.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="61063596-7f7b-49e0-9245-23d91e70bd6b" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.yahoo.com/" DesignTimeRectangle="402, 338, 61, 24" DesignTimeScaleFactor="1.440000057220459" ElementType="Text" FriendlyName="'Sports'" FullSelectorArgument="&lt;webctrl id='root_4' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl id='root_4' tag='A' type='' class='_yb_1md3s  rapid-noclick-resp' aaname=' Sports  ' check:innerText='Sports' /&gt;" Guid="6d2f48fc-dc9a-44df-b891-bfb6d137c088" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEEAAAAcCAYAAAA+59JsAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAARsSURBVFhH7VdZS1VRFO6/9BD0EBQ0gTSYWNhkkk0WJtg8YZmV0QAa2SBhNElhGQ00mhRF80g0mFfTkpy1Xhzu1ZyVq6v7rc7a7XPuuZdr+VBxPlioZ3977b2/NeztMHJAjgg+OCL44IjggyOCD44IPjgi+OAnwsDAALndHnr7roBevX7DVlf/lfr6+gzG/weTCC0trbRt5x4aMWosDR852mRTp8+m6ppag/l3ob+/n3p6eo2/Bg8lQld3N6Wk7vE7vNikiCiqrKo22H8HiopLKCo6loN29cYt4+vgoUSAw1Fjw/jAC+ISqKKyihXu6Oigsi/ldDonl+q/fjPY/gD3e1sbeb1e40tgoOTAhe8/AUpWghRMBJSyx9NCLa2ttvtTIuTl3wnJIQDBYhYuY3v/wUU5uRdpzITJPBdR2ZS8nRoaGg32LzQ1N1N6xiHFhYWFz6DrefnU2/srnbHZjVu2sf/sM+e4TNP2H6KRo8dTzKJlVFNbx+ORM+cpP5MjZzF/+Yq1VFtXz36wnswTHixxzUZeQ6BEePLshSJhgfb2wFHSIxA5K0b9rtvShJXU7HYbM4jKKyopIiralgtL3rGLOjs7mYuo4bD4vjg+kQ8nPHyvrqlT41aTsm1ra6fVGzbbcjAXawiUCLgB9E0iWoiaq+ijXwrpImDRew8e8YE/uIpMG75w6Qrz9Q3B79XredTd3cO30N70DMU/eTqHS0UXQUwijQC5PR6O5OOnz9V47oXLppRHhkqDv//wCfsFUIbvCgpNpahEAOnazXzbmyF8xhx68eq1cqSLcDAzi78JIIT0Fmy4q6vL1G92p+03iYqyiY6N47H5S+JZGF0EiFxQ6FJr6wjWE/QxlDp6ViAoEQAsVFxSyqksDsRQV0+fv2ReMBH0A0jaYYPCt24WTSt1dxqPoT+gbOx82CGYCNbMRialZxzmgFgFMYmgA2mFzEAWiKOkral8lQ5WhKzjpxQfc62AD318KERAQG/euu3XFGGr1ieZ+lVAEQTIjHFh03iybCiYCHAu6S18PROQmjr0TMA6nz6XDYkIgsamZg5mfOJakyBnz180GJoIqF39mhIgPZGmmIj3AzIkmAh6T0DHx0sOfOk1+w5kmnoCegB6AcbsesKfiqDjS3kF9xjw9X0rEeAQh0XqogkWfSzhn7hTZSE5gL54fOIa9YjCvYw3gozJ7QDhEAl8w+2Abo26xA2RmXVM8e1uh1BFwC0Df15vP1vppzLOAKwNwC9uuolTIpl/IvsMfwdMIohDO0OTQVaEwoVZ3wmFrmIVBTuDSA2NTcwNVQS8ZOVQYvJOCLZH/SyAEgET45av9Lsi8fe6TcmmJ7O+wOaUnZz2+pz1SSm2L0b4sD5gUKdHjp4wPc5CFQHRvXP3Pk2YFKH8iQhI/bmxS9R3MQSnpPSz4eEn/BqjvLPFcBtYoYuA2sJm8AgBP5T/B8AR/0PxLzpKC2lvt75+nkB78xMhFFhF+NfhiOCDI4IPvyXC/wZHBCL6AVldzwOBg1rBAAAAAElFTkSuQmCC" InformativeScreenshot="19098c280153de6dcbf2c6d8d0b3cb65.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Yahoo | Mail, Weather, Search, Politics, News, Finance, Sports &amp;amp; Videos' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'SearchBar'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="433.6,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="61063596-7f7b-49e0-9245-23d91e70bd6b" Text="golden state" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://sports.yahoo.com/" DesignTimeRectangle="412, 247, 980, 63" DesignTimeScaleFactor="1.440000057220459" ElementType="InputBox" FriendlyName="'INPUT ybar-sbq'" FullSelectorArgument="&lt;webctrl id='ybar-sbq' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='ybar-sbq' tag='INPUT' type='text' class='_yb_1c7n7' aaname='Search query' /&gt;" Guid="fa0ba0aa-365b-4e36-b31a-16e18a095298" ImageBase64="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" InformativeScreenshot="e2ced74cbe24f447c2d7e052e86e8104.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Yahoo! Sports - News, Scores, Standings, Rumors, Fantasy Games' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Golden StateNBA'" sap:VirtualizedContainerService.HintSize="433.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="61063596-7f7b-49e0-9245-23d91e70bd6b" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://sports.yahoo.com/" DesignTimeRectangle="413, 358, 953, 72" DesignTimeScaleFactor="1.440000057220459" ElementType="ListItem" FriendlyName="'Golden StateNBA'" FullSelectorArgument="&lt;webctrl aria-role='link' tag='LI' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='link' tag='LI' type='' class='_linkItem_1ab4t_114 ' aaname='' check:innerText='Golden State&amp;#xA;NBA' /&gt;" Guid="ceea6b68-37e3-410b-8dd3-2e0865e56307" ImageBase64="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" InformativeScreenshot="79ee6f263810dee0577d1e7f27ac7203.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Yahoo! Sports - News, Scores, Standings, Rumors, Fantasy Games' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NGetText DisplayName="Get Text '3-point %'" sap:VirtualizedContainerService.HintSize="433.6,157.6" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="61063596-7f7b-49e0-9245-23d91e70bd6b" TextString="[threePointsAvg]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://sports.yahoo.com/nba/teams/golden-state/" DesignTimeRectangle="717, 635, 122, 26" DesignTimeScaleFactor="1.440000057220459" FriendlyName="'37.2 3P%'" FullSelectorArgument="&lt;webctrl aaname='37.2 ' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='DIV' type='' class='C(#888) Fz(14px)' /&gt;" Guid="381b0cb3-a074-4d7a-bc33-c6c51b535321" InformativeScreenshot="fdccd1df673627ec8362ca4fb28b6c29.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Golden State Warriors on Yahoo! Sports - News, Scores, Standings, Rumors, Fantasy Games' /&gt;" SearchSteps="FuzzySelector" Version="V1" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="717, 555, 122, 22" ElementType="Text" FriendlyName="'3-point %'" FullSelectorArgument="&lt;webctrl aaname='3-point %' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='3-point %' tag='DIV' type='' class='Fz(13px) Fw(b) Lh(1.2) C(th-stats-color) Fz(13px)' check:innerText='3-point %' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAH4AAAAaCAYAAABxRujEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAATxSURBVGhD7Vn/SyJbFH9/tj8Yue9RkZFLsySxG/rQRSRCWiQXe7yJTUgeLhYWKZu8fa2ISGySsgwxxGfPvXNnvLdmNKN9OjgfOKBnztxx7ud8u8ffEGAuERA/pwiIn1MExM8pAuLnFD4j3oQx6KFvmOJ7gOfiEfGm0UO7WcFJTUizBeNOXJwymntRhBZ+55KuGUL7i2H2cNVge1HFVc/jmfeG7xxSIb6RszbVTWK5Cm7uheFUcA19U/o9hx2hfwbuBuh/v0SzO8Z5ugfQXqn7sLp3BvUuA41dcshFDfq1UPkACvHnWfUlH0pkry4spwPjIoPYyjLC6wkcd4VyQsjvONp5rnG0Jez265QFc4jx+2LYl24zLlKIkD5e9hHrBIX4q1IOR5Ta+z+YT1M9/V7HvhRlocUMGpapN1g0sbRHwjOf2UGzpmM/X0CF1jY9soZptMiuBD2fg/654hqNrAw5a4vyM9QNrLV5aqZ1ivS8xiX6dvYV6bjyfvg+qx/r1r38fR9goCPO7WIocifrQN+w7nMcxqggvUQBkak8yAKzj7HNnXmacDYqtJDCudB7oXuoOfbJv3S8W7HvFbKawbm8S/c9NPIawrKNkPBWHleSrVu0DnUairXHqTm0Qr+ZrXFdEBHrIhsFPEogd2Uk+fUo9r8xRQvF15a99olF9wCVFH231/cZRhNP0VPJLA836H2Z8sBoyMR7yraOvrCXGzYmkbUowouS7SaRIrLEaOK9hZeoSYmnVH+8bV2PJPKoHCZ4SmcOxmp5vxynz1GkLwbC3l9wJd5tM5dShWH0mcN07ohIlwrxGzk0+b6YaP8tO4RohG51aI4uhg//CbcSKdS2T55aa48jPpIqoctKAJWXI0Eal80D3HBr9zU8YVSRXZXWWYziXZnKVbcAjZwzsns2NhBmFU8mPvwmg5OeMKCG5uF1O2oU4rNVy56jjl2JzHTNjhqhe61G3dVHKRNQDWUYR7xMpOqAw7UnIp5DzA5IeM9y37JOF+tUhigTmbeXaPCjb91yOp/Alfj+N3GG/1xAWtQ1LivU3LGXexbxw+aICdt0b1t34qZDvIouz1zUT3RNdD/F1d6EMkLWJ6l/bHOnpmMrUnmq79SHQx4mXygF0qWnEh8v91RbEdU2ZpL45g6v89phS9oXqvOnHbRLb611l3bQmOq842mYmHiro/WGJ/FOl2xJls6FZlU6MaxR6hSmDDJB9vxgqsTfnSHLTijUL/C17KxHRDf5dfv9/DHIkYinRuYPDUl23nYiWUdWTvULy9jlb+kNZcPXUzjpsPrYovOzVLMXEzhhJeOuqjRxGp2rb4wBbpp53jxZ+qjzzJcmPrR9gLbUmHpjQPex6Vwcx7dCZRNvzzacc78PiU/bG+Ih4UTJOYZ5QdlwD+GpUsCefLnZMYlQ1rBpeQni28XYUO9y3Q1GzfqNyapUv1mEC+fU8iUcZcW61PS1hcksQyL+K4pby66DlNCrGOL5p83qlQ1P7OCDVNeZxPIPZ93UTP5bQHJNtWPPTB5eKrYvQTzryo//VGcHI4k3LIJlB7RhfMkhJg+MVt8+e5T8f8O1xps/xNmcyYT/OCkbLmq8vd64pZTxq9D9MkiziJH/Po5zdvufOXtk7BOMb+4mhBvxAWYPAfFzihcnvt/II7ubseSfr0IbYNbw4sQH8AcC4ucSwE/eDg/lspxCFAAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <Assign sap:VirtualizedContainerService.HintSize="433.6,82.4" sap2010:WorkflowViewState.IdRef="Assign_1">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:Int32">[threePointAvgInt]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:Int32">[CInt(threePointsAvg.Split(".")(0))]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="433.6,90.4" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[threePointAvgInt.ToString]" />
+            <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" sap2010:Annotation.AnnotationText="check if in yesterday game of golden state, they have scored more then 40% from three&#xD;&#xA;" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="433.6,285.6" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_1" Operator="GreaterThanOrEqual" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+              <uta:VerifyExpressionWithOperator.FirstExpression>
+                <InArgument x:TypeArguments="x:Object">[threePointAvgInt]</InArgument>
+              </uta:VerifyExpressionWithOperator.FirstExpression>
+              <uta:VerifyExpressionWithOperator.SecondExpression>
+                <InArgument x:TypeArguments="x:Object">[40]</InArgument>
+              </uta:VerifyExpressionWithOperator.SecondExpression>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uta:VerifyExpressionWithOperator>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAJdSURBVFhHY0hgvPR/IPGoA0YdMHwdUKN36/+TK99R8Lq6FxjqaOaAY0ve/UcHzZZ3MNTRxAEF0tf+//71D2otBDw49w2rWpo4YEvHK6i1CDAz5hFWtVR3QBr35f9f3v2BWgsB757++p/Mil09VgfcPvYFqhUCDs55i6FmfcMLqCwE3DnxFSy+OOcpVAQBVlU8x9APw1gdMCXkAVQrBPz4+vd/psAVuHwSyyWwr5DBtIiH/xOZLv1/cfsHVAQCfnz5+z9L8CqK+cgYqwMSmS/9f33/J9QICFia/xQuj+7Ad09+gR01MQBVHAT2THmDYjY6xpkGlhagBuWz69/hctf2fYaKQsDqSkgQ3ziEGnV///77X6ZyA64PG8bpgAzeK/+/fURNTB2Od/9Xat6E8iDg57e//7OFr/5P5bwMDn5kfGAWZtpBxzgdAMLbe1Cz06nVH/7vnvQayoMAZEtAjk5hv4xiBiGM1wFFctf///mNKFBA7G+fUEOlSvvm/xyRq/8v7fj0/9+/f2A1IEdiMw8bxusAED6x4j3UKkxwedcnsJojCzGL3emRDzHMwoYJOqDR7DbUSEzQ530frObJ1e9QEQTY2IRZ8WDDBB0AwreOoKZuEHh+8wdcfs/UN1BRCABFRYs1ZsWDDRPlgMlBmPl7UfYTuDyo+N077c3/Nw9//n94/hu4UELWjw8T5YB+n/tQayHg64c//9N5ECUjJZgoB6AXPKDsiU0dOZigA2oNbkGthYC/f/79L1a4jlUtOZigA44uQs1ip9d+wKqOXExUFNASjzpg1AED7IBL/wEEb/bMxqNS/AAAAABJRU5ErkJggg==" InformativeScreenshot="6e15c970e4cb279c11fd64bd2772cc41.jpg" Selector="&lt;html app='chrome.exe' title='Yahoo | Mail, Weather, Search, Politics, News, Finance, Sports &amp;amp; Videos' /&gt;" Title="Yahoo | Mail, Weather, Search, Politics, News, Finance, Sports &amp; Videos" Url="https://www.yahoo.com/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

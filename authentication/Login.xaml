@@ -1,0 +1,221 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Login" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="844.8,2280.8" sap2010:WorkflowViewState.IdRef="Login_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:uuam="clr-namespace:UiPath.UIAutomationNext.Activities.Models;assembly=UiPath.UIAutomationNext.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="38">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Mail</x:String>
+      <x:String>UiPath.Mail.Outlook.Activities</x:String>
+      <x:String>UiPath.Mail.Activities</x:String>
+      <x:String>UiPath.Testing</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="50">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Testing</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Login" sap:VirtualizedContainerService.HintSize="692,2216" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="myUsername" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: Yahoo | Mail, Weather, Search, Politics, News, Finance, Sports &amp; Videos" sap:VirtualizedContainerService.HintSize="629.6,2104" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="271d0a42-fa89-405a-8f62-e6b3e937a257" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="596,1887.2" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Sign in'" sap:VirtualizedContainerService.HintSize="533.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="271d0a42-fa89-405a-8f62-e6b3e937a257" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.yahoo.com/" DesignTimeRectangle="1528, 313, 99, 38" DesignTimeScaleFactor="1.440000057220459" ElementType="Text" FriendlyName="'Sign in'" FullSelectorArgument="&lt;webctrl parentid='ybarAccountProfile' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='ybarAccountProfile' tag='A' type='' class='_yb_16vny' aaname='Sign in' check:innerText='Sign in' /&gt;" Guid="18572151-68d9-4482-9b57-a2cd1c57bd67" ImageBase64="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" InformativeScreenshot="ec9aa17faa4862e471565e2622253917.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Yahoo | Mail, Weather, Search, Politics, News, Finance, Sports &amp;amp; Videos' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ClickType="Single" DisplayName="Click 'unchecked'" sap:VirtualizedContainerService.HintSize="533.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="271d0a42-fa89-405a-8f62-e6b3e937a257" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://login.yahoo.com/manage_account?.lang=en-US&amp;src=homepage&amp;pspid=2023538075&amp;activity=ybar-signin&amp;signin=true&amp;done=https%3A%2F%2Fwww.yahoo.com%2F&amp;eid=100" DesignTimeRectangle="1618, 564, 37, 37" DesignTimeScaleFactor="1.440000057220459" FriendlyName="'unchecked'" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='icon-vertical-ellipsis svg-bg' aaname='' check:text='unchecked' /&gt;" Guid="730c83ef-7454-470c-a76a-5dad4783a77b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACkAAAApCAYAAACoYAD2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAEpSURBVFhH7ddRDYMwFIXhOgAH4AAJ4AAcgAMkIAEcIAEJ4AAJSEDCXQ65Wxjw1kNCQ/+kL6MPX0bbrUYcyCNZeSQrj2T1PmTbtpJlmVRVJfM866f20ZB5nosx5m+woBQkMEcgBuCMKMhhGC6RaZrqDLsoyGVZLpFlWeoMu2hrEptmD4yiSNZ11ad20ZAIaxNYvH4WEFGRd/U+JDbQNE3bYEZD9n0vYRj+Ng5+eR61cfAN7oHfUde1zrCLghzH8QTEeNRh7gQSAXREAs+IhsQmwRoEFoMFRDTknXkkKxoSZ2VRFNuGieNYuq7TJ/bRkEmSnHY3/g0xoiCdOCeduD7gjAyC4IRsmkZn2EVbk3jleyjrfoNoyG+4QjCvDoiOvCOPZOWRrDySk8gH9awfX6gzkeYAAAAASUVORK5CYII=" InformativeScreenshot="3435257c497f172fbbd57ce9ee8bbd12.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Yahoo' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Remove from this device'" sap:VirtualizedContainerService.HintSize="533.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="271d0a42-fa89-405a-8f62-e6b3e937a257" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://login.yahoo.com/manage_account?.lang=en-US&amp;src=homepage&amp;pspid=2023538075&amp;activity=ybar-signin&amp;signin=true&amp;done=https%3A%2F%2Fwww.yahoo.com%2F&amp;eid=100" DesignTimeRectangle="1347, 613, 309, 66" DesignTimeScaleFactor="1.440000057220459" ElementType="Button" FriendlyName="'Remove from this device'" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='card-menu-button' aaname='                         Remove from this device                     ' check:innerText='Remove from this device' /&gt;" Guid="85647b7a-df93-47cc-b07d-1bb7fcebd0a6" ImageBase64="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" InformativeScreenshot="8b75e53f261412a3cc7639ed82ee9d6d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Yahoo' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Username, email,'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="533.6,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="271d0a42-fa89-405a-8f62-e6b3e937a257" Text="yairslonim@yahoo.com" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://login.yahoo.com/?.lang=en-US&amp;src=homepage&amp;.done=https%3A%2F%2Fwww.yahoo.com%2F&amp;pspid=2023538075&amp;activity=ybar-signin" DesignTimeRectangle="1230, 638, 427, 49" DesignTimeScaleFactor="1.440000057220459" ElementType="InputBox" FriendlyName="'INPUT login-username'" FullSelectorArgument="&lt;webctrl id='login-username' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='login-username' tag='INPUT' type='text' class='phone-no ' aaname='Username, email, or mobile' /&gt;" Guid="2ffec38c-c4d9-4578-999c-43f2f9254ca5" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAa8AAAA1CAYAAAD24WSQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADrSURBVHhe7ddBCQAxEATBkxHXJ3lDPtGQhioYDc18AwAx4gVAjngBkCNeAOSIFwA54gVAjngBkCNeAOSIFwA54gVAjngBkCNeAOSIFwA54gVAjngBkCNeAOSIFwA54gVAjngBkCNeAOSIFwA54gVAjngBkCNeAOSIFwA54gVAjngBkCNeAOSIFwA54gVAjngBkCNeAOSIFwA54gVAjngBkCNeAOSIFwA54gVAjngBkCNeAOSIFwA54gVAjngBkCNeAOSIFwA54gVAjngBkCNeAOSIFwA54gVAzo3X+s3MzN7f4XkBkCNeAMTMbB5UXlBl14BTAAAAAElFTkSuQmCC" InformativeScreenshot="b5471c7dc17ec9ce19eb45c491427e2e.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Yahoo' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="1230, 615, 222, 22" ElementType="Text" FriendlyName="'Username, email,'" FullSelectorArgument="&lt;webctrl id='login-label' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl id='login-label' tag='LABEL' type='' class='login-label' aaname='Username, email, or mobile' check:innerText='Username, email, or mobile' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAOIAAAAaCAYAAACq0YCjAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAPoSURBVHhe7ZjtccMgDIY7jSdrdsl1lXSUXtbojwzhYhuBPgEHkjhXPXf6UYON9KIXO/2YHcd5OW5ExzkAbkTHOQBuRMc5AG5ExzkAbkTHOQBuREfn5zxP0zSff+Lf/4Tr1xTqPs/X+Pceeu5lRrzO5yD+9HmZb/EK5TZfPkvjznsS9xU3kRuxzO9lPi1e+coz3YhOJ3Hfp9N8+Y2X3Ihloj7YC25EZzxuxN283IhbAjhkMrfvE5lz+qYrrM9Ynwunc56jja0h8oRPLBw8lzhn+aSAUy0GNB2tRxe2Vk87rKbh+bZoAs9A13uMyPJU+2mds72BU/7avJXH7Bn+rASyDrVei+MNn6Y0N13TbiOK4tZAnzgBnggEbl5tDjEiG0uBxYTvdhFYHK0xK8H0aKmniWfk27QG1ISu3WlEe69oTwizLlHrOz6/FORZpfs1HazAc1uMaK/Lde00IixEiyGA4Kow+b4kgHlKsUZPDVZYOwAHRb43i4PFSAcKyRNORbRGYz119Dzg+cPyVZCagMayzl1GTOai66u5GnN1+jTQ5+W+kmai1/D6WbO6EdO65Fm6xx5uxC05dhousI0WjYCwxkr3JMR/t3gNkTiPmD3A82+tp4rICzA0vjNfFWVtoeUdRiytLcZ2Pb9Hg1KPyjGhQ4J7o2ZEe93NoFSn/t+IsKkQ5F5Ixg4Q0RbAHquKhmOIEdvrqZLeCFawDb0rX0xJE0XL3UYEbfQ9FM97mhHLPc1NYfcUz6FmREVvFrj2nUYsjLPGgkW25OwYasRScw8xYns9VfgBJgLq6jRikya2lm5EYK8RQQ87CkaEm9FGYmBT0eISmqBdGKU0zxqzCiebCw0/1Ij1eqoY60l68m3VRKlrtxGlVhgx9jQjggbanskxoQMgNGs0onEAcJgRw+3wA5MnA4mEyOKFZFAiKzAPEgDzVhIyBQhYY/S6fvJtc0IMMmJrPXWgCWrN2JNvqyZwDWl8hxGTNmyvUk/hPJ5mRGP9gK0Df6a2VzUjonW5RxSEEfGiapCHxmSUwAKngkVksXgRGGuMX7fXCZHy7tvUBXsdmAca0vsEcGhpMSjfNk1gHtKYGwVMVmmqujaRJxqx3NO0r4p6kfXrRtyzrmLEjfxmzKGKlk7B/fOkiWhygDWmXadCLpsRxRhoxJViPfmAqjeavlk5j/5865rAHKQlM4r1VlHh2mj3sOeXGbNnoqeVQ2W9d1mH1yDmthhxQ/MSr8U0otPL0jyKgd+ZpTmV5nX6cSM+iuW0bnl7vBHLid/2BnP24kZ8CNunFP9kemvWTzX52eWMwY3oOAfAjeg4B8CN6DgvZ57/ADdW/ZAHuErlAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Next'" sap:VirtualizedContainerService.HintSize="533.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="271d0a42-fa89-405a-8f62-e6b3e937a257" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://login.yahoo.com/?.lang=en-US&amp;src=homepage&amp;.done=https%3A%2F%2Fwww.yahoo.com%2F&amp;pspid=2023538075&amp;activity=ybar-signin" DesignTimeRectangle="1230, 662, 427, 62" DesignTimeScaleFactor="1.440000057220459" ElementType="Button" FriendlyName="'Next'" FullSelectorArgument="&lt;webctrl id='login-signin' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='login-signin' tag='INPUT' type='submit' class='pure-button puree-button-primary challenge-button' aaname='Next' check:text='Next' /&gt;" Guid="7616c73f-e7ee-4add-bf42-549b46f09441" ImageBase64="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" InformativeScreenshot="2ba3d0534e3a3e4351b57fb1c6778d75.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Yahoo' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="533.6,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_3" IsPassword="True" ScopeIdentifier="271d0a42-fa89-405a-8f62-e6b3e937a257" Text="@123123123Aa" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://login.yahoo.com/account/challenge/password?.lang=en-US&amp;src=homepage&amp;pspid=2023538075&amp;activity=ybar-signin&amp;done=https%3A%2F%2Fwww.yahoo.com%2F&amp;sessionIndex=Qw--&amp;acrumb=n90AmVPp&amp;display=login&amp;authMechanism=primary" DesignTimeRectangle="1230, 645, 385, 49" DesignTimeScaleFactor="1.440000057220459" ElementType="InputBoxPassword" FriendlyName="'INPUT login-passwd'" FullSelectorArgument="&lt;webctrl id='login-passwd' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='login-passwd' tag='INPUT' type='password' class='password' aaname='Password' /&gt;" Guid="fdf02d35-f3e6-4ba4-ae91-d978640bb7c0" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAYUAAAA1CAYAAACunveJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADFSURBVHhe7dVBDQAgEMAwZOAayceHzARtMg1bAwCPKQAQUwAgpgBATAGAmAIAMQUAYgoAxBQAiCkAEFMAIKYAQEwBgJgCADEFAGIKAMQUAIgpABBTACCmAEBMAYCYAgAxBQBiCgDEFACIKQAQUwAgpgBATAGAmAIAMQUAYgoAxBQAiCkAEFMAIKYAQEwBgJgCADEFAGIKAMQUAIgpABBTACCmAEBMAYCYAgAxBQBiCgDEFACIKQAQUwAgpgBAmsI+kqS/m7l0KO36wRc4+AAAAABJRU5ErkJggg==" InformativeScreenshot="6558138ecace08d1ba2dcf6fb3313af7.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Yahoo' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="1230, 622, 77, 22" ElementType="Text" FriendlyName="'Password'" FullSelectorArgument="&lt;webctrl id='password-label' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl id='password-label' tag='LABEL' type='' class='password-label' aaname='Password' check:innerText='Password' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFEAAAAaCAYAAADPELCZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAILSURBVGhD7ZXRccMwCIY7TSard/F5FWeUnNfIQ4ZQhUASAhS5MW/Rf8fVZ7AEH5D+hKnLmhAdNCE6aEJ00ITooAnRQROigybEf+p1X8LttoT9SS+iBMRX2H9vMUjb+qCQL9cliMm2g+K+V+ch/u7xiesIawLZfvyNugAx6rGmaSxr/dzDwqcUzJhUvJTHtQl0/fl8ceaxQcwa28okcwPRu2LdmvA+PFfEyRqj7/CAuNzRo4sn40XLQshKsQO/BpY3ogUm4woQZW3x5v259k5uaB9BPLPO+fe0xmAx/W9GfrU6bDJyM8u9uXml+HZaS9N5bZ3YWgu/B2RzcP3HkhNtJ+lziBlaM/0Rwg7fZRgUc+ZO5SOIfKqTOj8lINXYqNMQ244wGWNfk6rrhyY7PvLzKcPnlEe6kwrhzyV/eQ5JQutBpPdWzechqnXWwq7a1u0smUrujR/viVCaiUP48Jz8JV9fiOp9lB/EUnSbrFxnrdH5hj8VFJO+w996X4K3rTjJbO3UyjIpXw+WyzqPINLl7UTV1cSk4lmbPCfHAIyRP4utPC+KclAQynu7wbpBVtNlLaQyPB4QeWGGFYhwluFH+CN/Vo2zC2phgXDiLBMT2oUYxZqkzQUiSICEb5rfrahSaLUG0MhPslZomKuEYMW9gwiSZ8AmpJzfQpz6RBOigyZEB02IDpoQLyuEP+fQixLbxMzAAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Next'" sap:VirtualizedContainerService.HintSize="533.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="271d0a42-fa89-405a-8f62-e6b3e937a257" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://login.yahoo.com/account/challenge/password?.lang=en-US&amp;src=homepage&amp;pspid=2023538075&amp;activity=ybar-signin&amp;done=https%3A%2F%2Fwww.yahoo.com%2F&amp;sessionIndex=Qw--&amp;acrumb=n90AmVPp&amp;display=login&amp;authMechanism=primary" DesignTimeRectangle="1230, 666, 427, 62" DesignTimeScaleFactor="1.440000057220459" ElementType="Button" FriendlyName="'Next'" FullSelectorArgument="&lt;webctrl id='login-signin' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='login-signin' tag='BUTTON' type='submit' class='pure-button puree-button-primary puree-spinner-button challenge-button' aaname='                     Next             ' check:innerText='Next' /&gt;" Guid="1d19bd05-0901-416c-9991-df099220debc" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAa8AAABCCAYAAADgxlnpAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAewSURBVHhe7d1BaxRnHMfxvgxFD4KKBUFBbV5BfQPizVdgjxGEnNSTJ2lEqqLWeFkvVtCDHppcNBexSJRIwRSpClYtrTVQJFTk3//PnZk8O/PM7uxmd7PZ+f7gQ9Pd2cmuhPkxzzz7zFdGCCGEbLBQXoQQQjZcKC9CCCEbLkMpr4W3ZjOPzY7PmR26YfbNj2bbfzDbMm226XsAwEakY7iO5Tqm69iuY7yO9TrmDzoDK69bz8yO3jXb6R9sz6Xmh9t9Mf4PAADY+HSM17Fex3wd+9UB6oJBpK/l9fy92Yl7Zjv8TR/wD/D1hfgHBACMP3WAukCdoG5QR/QrfSmvFx/Mjs2abTtntv9K/EMAAOpL3aCOUFeoM9aaNZfXmQdmm/2N7bscf8MAAKTUFeoMdcda0nN5PXpjdrBhNuGnhLE3CABAGXWHOkRd0kt6Kq9rT8y2njXbdT7+pgAA6EQdoi5Rp3Sbrsvr1H2zvZfibwQAgG6pU9Qt3aSr8pqcbU6DjP1yAAB6pW5Rx1RN5fLSTrm+BQAYFHVM1QKrVF46neOMCwAwaOqaKkOIHctLF9K4xgUAGBZ1TqdJHG3LS1MYNRMktnMAAAZF3dNuGn3b8tIcfKbDAwCGTd2jDipLaXnp289M0AAArBd1UNlKHNHy0rpTWr4jtjMAAIZFXRRbCzFaXlo4kbUKAQDrTV2kTsqnUF5asl4r/8Z2AgDAsKmT8rdTKZSX7rnCbU0AAKNCnaRuClMoL900LPZiAADWi7opTEt56XbNuutl7IUAAKwXdZM6Kk1LeR29y637AQCjR92kjkrTUl47GTIEAIwodVSarLwW3prtYQ1D1MU9s+Xkb19ZfmU2Edsu0fg72dAz76+NbQNgsNRR6iolK6+Zx6wcjxrJlZcyfz+yXWJUymtqweyOF+2Sv58LkeeBcaaOUlcpWXkdnzPbfTH+AmDsRMrLPpqdnIls60alvJaS96A0Is8D40wdpa5SsvI6dCO+MTCWYuXlKRs+pLyA0aCuUrLyYsgQtRKW1yezleRHJTZ82LG8rvs2XnzLvq8s/vPS72bf5c7mGn8lz3tW/iyW5c1/kic9cz83H5sP32AkXIdDXairlKy8tjPTEHUSlpeuH3mJZPGiyA8ftiuvCS+7d2Fp5ZMfjrzppRZs/8uD1eeOPF0t0uWXq49TXkCTukrJymvLdHxDYCzlymuTl8tiUCgrf7SeEZWWV1hE/t/5BbNv9bifiV31faRZeR28xh1eXC2prCzDfZVcf2PYEHWnrlKy8optBIytfHn5YxN+BhSe4IRnRGXlddpLKc2iF1f6eGru3+TJz8XZgeHwoc6ywrO/spmPlBfQ/PunvFBPkfKS6eBsyf7z/0/OfsrKKxvO07bJY6Fwf4WhvdzwYZp23zmjvIDm3z/DhqinkvLS8GF4fSmdUFFWXmGZdMrSYvB7Ei3Dh0pQmDGUF+quMGzIhA3USll5OU3AyJ7zLD4qKa9wHxUSK69Nt81efk428Cy/Lj/rEsoLdVeYsMFUedRKm/KSk6+S55RPXmDB9PXomddHs6ng9VWF173StFvpg/JC3RWmyvMlZdRKh/L6MnzohRRL9JqXp9FmuC9mws/o0pcvezlmu/Ifylb6oLxQd4UvKbM8FGqlU3m5/PBhmrC8wtmGnRb3beHllE3NT8oqnG1Ytq/FYIiR8kLdRJeHYmFe1EqF8pKW4cMkYXnlZwy+8zI7fXv1+YmfzKYe+mv8d1xNX+PCWYjZlPzcvmLDh+HZ4OKTpOC8+A5fL24LjBt1VGFhXm6JglqpWF6SHz5sKS+nM7SXkSnv+aRnSuH3yfLLQx35NXlCiQwfTj5Pnstl6WnrdsA4it4SReFmlKiNLsqrZVtPvry+8JKZ/s3PvLILV0k+ewf5Y0t+BjeZbJtdJ/PCa/jZVn5fd4JfpuHD/PNTXnAtayj679BZWH47YNxEb0ap6BbLutVy7EUAAKwXdZM6Kk1Led16ZnaA614AgBGjblJHpWkpL2UHQ4cAgBGjbgpTKK8T98z2X4m/GACAYVMnqZvCFMrr+XuzbefiOwAAYNjUSeqmMIXyUo7Nmu27HN8JAADDoi5SJ+UTLa8XH8w2R3YCAMAwqYvUSflEy0s588BsgpmHAIB1og5SF8VSWl7KwYbZrvPxnQIAMCjqHnVQWdqW16M3ZlvPxncMAMCgqHvUQWVpW17KtSdme1nzEAAwJOocdU+7dCwv5dR9VpwHAAyeukad0ymVykuZnGUCBwBgcNQx6poqqVxeinbKGRgAoN/ULVWLS+mqvBSdznENDADQL+qUKkOFYbouL0UX0jQThGn0AIBeqUPUJZ0mZ8TSU3kpmsKoOfhcBwMAdEvdoQ5pNx2+XXourzT69rOW72AtRABAJ+oKdUbZyhlVs+byUrTulBZO1Mq/3E4FAJCnblBHqCtiaxV2m76UVxotWa97ruimYbrrpW7bHPsQAIDxpw5QF6gT1A3525qsJX0trzC6XfPRu2Y7/U3vudScBrn7YvwDAgA2Ph3jdazXMV/HfnVAeOv+fmZg5RVm4a3ZzGOz43Nmh240P9x2/2BbpuP/AACA0adjuI7lOqbr2K5jvI71OuYPOkMpL0IIIaR/MfsfqII1jwHQtWgAAAAASUVORK5CYII=" InformativeScreenshot="7b3785ebad18785093045a6257c8c51c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Yahoo' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uta:VerifyControlAttribute AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Control Attribute" sap:VirtualizedContainerService.HintSize="533.6,267.2" sap2010:WorkflowViewState.IdRef="VerifyControlAttribute_1" Operator="Equality" OutputArgument="TextString" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False">
+              <uta:VerifyControlAttribute.ActivityToTest>
+                <ActivityAction>
+                  <uix:NGetText DisplayName="Get Text 'yair'" sap:VirtualizedContainerService.HintSize="333.6,157.6" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="271d0a42-fa89-405a-8f62-e6b3e937a257" TextString="[myUsername]" Version="V3">
+                    <uix:NGetText.OutUiElement>
+                      <OutArgument x:TypeArguments="ui:UiElement">
+                        <VariableReference x:TypeArguments="ui:UiElement">
+                          <VariableReference.Variable>
+                            <Variable x:TypeArguments="ui:UiElement" Name="_autogenerated_OutUiElement" />
+                          </VariableReference.Variable>
+                        </VariableReference>
+                      </OutArgument>
+                    </uix:NGetText.OutUiElement>
+                    <uix:NGetText.Target>
+                      <uix:TargetAnchorable BrowserURL="https://www.yahoo.com/?guccounter=1&amp;guce_referrer=aHR0cHM6Ly9sb2dpbi55YWhvby5jb20v&amp;guce_referrer_sig=AQAAALf-ZyLSXWI11igR_GcbqsvroD8l9uoRqsedP1cdHqDuApxwoJrI8rwk62crQtW0zEBXmLAXeo8nP0WYl2pOZFSojSvCtTUAACHIW3FeruraMrFOkLnfZmKSIpE-Fv8sQB0PH-PDyTzwDY4kEogQGZkdd9O3IUE1BdeN3VlSm-sP" DesignTimeRectangle="1588, 258, 31, 27" DesignTimeScaleFactor="1.440000057220459" ElementType="Text" FriendlyName="'yair'" FullSelectorArgument="&lt;webctrl aria-role='presentation' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='presentation' tag='SPAN' type='' class='_yb_1s2wi _yb_1s34t _yb_jkfpk ' /&gt;" Guid="05d826be-7408-4c88-86bd-048dec2310df" InformativeScreenshot="d6e05f403479d338a1577f2ee757a275.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Yahoo | Mail, Weather, Search, Politics, News, Finance, Sports &amp;amp; Videos' /&gt;" SearchSteps="FuzzySelector" Version="V1" Visibility="Interactive" />
+                    </uix:NGetText.Target>
+                    <uix:NGetText.WordsInfo>
+                      <OutArgument x:TypeArguments="scg:IEnumerable(uuam:NWordInfo)">
+                        <VariableReference x:TypeArguments="scg:IEnumerable(uuam:NWordInfo)">
+                          <VariableReference.Variable>
+                            <Variable x:TypeArguments="scg:IEnumerable(uuam:NWordInfo)" Name="_autogenerated_WordsInfo" />
+                          </VariableReference.Variable>
+                        </VariableReference>
+                      </OutArgument>
+                    </uix:NGetText.WordsInfo>
+                  </uix:NGetText>
+                </ActivityAction>
+              </uta:VerifyControlAttribute.ActivityToTest>
+              <uta:VerifyControlAttribute.ArgumentsBridgeActivity>
+                <ActivityFunc x:TypeArguments="x:Object">
+                  <uta:ArgumentsBridge sap2010:WorkflowViewState.IdRef="ArgumentsBridge_1">
+                    <uta:ArgumentsBridge.Input>
+                      <InArgument x:TypeArguments="x:Object">
+                        <VariableValue x:TypeArguments="x:Object">
+                          <VariableValue.Variable>
+                            <Variable x:TypeArguments="x:String" Name="_autogenerated_TextString" />
+                          </VariableValue.Variable>
+                        </VariableValue>
+                      </InArgument>
+                    </uta:ArgumentsBridge.Input>
+                  </uta:ArgumentsBridge>
+                </ActivityFunc>
+              </uta:VerifyControlAttribute.ArgumentsBridgeActivity>
+              <uta:VerifyControlAttribute.Expression>
+                <InArgument x:TypeArguments="x:String">["yair"]</InArgument>
+              </uta:VerifyControlAttribute.Expression>
+            </uta:VerifyControlAttribute>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAJdSURBVFhHY0hgvPR/IPGoA0YdMHwdUKN36/+TK99R8Lq6FxjqaOaAY0ve/UcHzZZ3MNTRxAEF0tf+//71D2otBDw49w2rWpo4YEvHK6i1CDAz5hFWtVR3QBr35f9f3v2BWgsB757++p/Mil09VgfcPvYFqhUCDs55i6FmfcMLqCwE3DnxFSy+OOcpVAQBVlU8x9APw1gdMCXkAVQrBPz4+vd/psAVuHwSyyWwr5DBtIiH/xOZLv1/cfsHVAQCfnz5+z9L8CqK+cgYqwMSmS/9f33/J9QICFia/xQuj+7Ad09+gR01MQBVHAT2THmDYjY6xpkGlhagBuWz69/hctf2fYaKQsDqSkgQ3ziEGnV///77X6ZyA64PG8bpgAzeK/+/fURNTB2Od/9Xat6E8iDg57e//7OFr/5P5bwMDn5kfGAWZtpBxzgdAMLbe1Cz06nVH/7vnvQayoMAZEtAjk5hv4xiBiGM1wFFctf///mNKFBA7G+fUEOlSvvm/xyRq/8v7fj0/9+/f2A1IEdiMw8bxusAED6x4j3UKkxwedcnsJojCzGL3emRDzHMwoYJOqDR7DbUSEzQ530frObJ1e9QEQTY2IRZ8WDDBB0AwreOoKZuEHh+8wdcfs/UN1BRCABFRYs1ZsWDDRPlgMlBmPl7UfYTuDyo+N077c3/Nw9//n94/hu4UELWjw8T5YB+n/tQayHg64c//9N5ECUjJZgoB6AXPKDsiU0dOZigA2oNbkGthYC/f/79L1a4jlUtOZigA44uQs1ip9d+wKqOXExUFNASjzpg1AED7IBL/wEEb/bMxqNS/AAAAABJRU5ErkJggg==" InformativeScreenshot="d294fe879a4bc52a203360f21a2dfe06.jpg" Selector="&lt;html app='chrome.exe' title='Yahoo | Mail, Weather, Search, Politics, News, Finance, Sports &amp;amp; Videos' /&gt;" Title="Yahoo | Mail, Weather, Search, Politics, News, Finance, Sports &amp; Videos" Url="https://www.yahoo.com/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

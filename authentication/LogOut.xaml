@@ -1,0 +1,184 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="LogOut" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="844.8,1367.2" sap2010:WorkflowViewState.IdRef="LogOut_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:uuam="clr-namespace:UiPath.UIAutomationNext.Activities.Models;assembly=UiPath.UIAutomationNext.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="34">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.Testing</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="43">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>UiPath.Testing</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="LogOut" sap:VirtualizedContainerService.HintSize="696.8,1302.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Golden State Warriors on Yahoo! Sports - News, Scores, Standings, Rumors, Fantas" sap:VirtualizedContainerService.HintSize="634.4,1190.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="eeba32c1-f01a-4fac-89c9-489cf51f4236" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="596,973.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="SignIn" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ClickType="Single" DisplayName="Click 'HOME'" sap:VirtualizedContainerService.HintSize="533.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="eeba32c1-f01a-4fac-89c9-489cf51f4236" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://sports.yahoo.com/nba/teams/golden-state/" DesignTimeRectangle="67, 130, 74, 17" DesignTimeScaleFactor="1.440000057220459" ElementType="Text" FriendlyName="'HOME'" FullSelectorArgument="&lt;webctrl parentid='ybar-topnavigation' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='ybar-topnavigation' tag='A' type='' class='' aaname='      HOME' check:innerText='HOME' /&gt;" Guid="c276a385-a64e-4fba-9772-8ca18d7f7b9e" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAE4AAAAVCAYAAADo49gpAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAMUSURBVFhH7Zffa9pQFMf31/m4hz0Ie5gwGIJMGIORh8qg82EOptBVGEofOirtBGmhdMw6lK1YymRFYRKYLWKgXSEbxWIthA52du9NbnJuEjXxx170wPch53vvTfIh59ybO4G7QVjIvxbgxpRncM+Wll3z8ypP4D5VvgCNUvmzqz+PGgmOQ+OxgKdrKDg7NB7ThBdaSkIitWooARHTkyBm5lch9lScFwjH4UVmG4rlKuy+c/GJInFrfiKVBCk8yOP3Fe8pSpw/ENwgaDymBq90Dn//gKFzKJpeBRQzD6CUeD4BhYYKGvK4eu0qpNHLFRXRP93hXgZqv7HXhVqK5jegfoXzWH2or1lru4IbBY3HVOB5BHdxECe5KBR+3KLxTmlKBWJsvguEkz197ZU6XOK8CWUCcF6h8ZgYnkdwvcYGBHIt4UvryfuQJmW0fqiaOSqlRCG7QNA6UCBrp2pdMU+kfKT3FOf05D1vpeoXGo+J4AnguiCTnlVhaglfBQWXbfTRWALZfBEbpHaF5ETwum5B3rKXqS69FQwBF5eMe+kywdFz2iQx9jlPADdYFJzQs66akEXrOLxwFS74tWZ52plqK1Nd7IseVqqkBeDnFr64yBPJwOAv6Dy8ji/NAtxlE9JrTejxa6UDpwge03ULZDRnInBU44R9DV8SwKlQNXtKzfpiiOiLpY9xqZKxz/k62yBfW2PZJrBl9UM6t3CCfCLte16EzcDYSpXBRM+K5Anc0ddvkHzzdmAPtK/hS342B9tuqJ3VYTOTh0obA6V9LCqsy+budMQxuaDYM3/WQLKB05S60W91ba5Yzz0SHIWGfTd42PctP+DIcSR77NwRsTSyMUhkvnRg7bTsKBPet8qVlOk6GSOAY6U/pFSJrLOkB3C59wXBX3752nCswL5v+QJH81FIfCA7Li5NKq0PymHe/PPAUPQXjsKuUa60TOmYUBkdY9hRZYbg3HZf7P9Pmb9Nr+IQcvFnKQc4Vf1l4NBjFLj+zY3gz4sc4B48eszgcNFr7N+7/3CoPy9ygFvImxbgxlIQ/gGyvypzxXx2bAAAAABJRU5ErkJggg==" InformativeScreenshot="57680998b90f10ba3c64973fb981da63.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Golden State Warriors on Yahoo! Sports - News, Scores, Standings, Rumors, Fantasy Games' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick AlterIfDisabled="True" ClickType="Single" DisplayName="Click 'yair'" sap:VirtualizedContainerService.HintSize="533.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="eeba32c1-f01a-4fac-89c9-489cf51f4236" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.yahoo.com/" DesignTimeRectangle="1530, 148, 88, 46" DesignTimeScaleFactor="1.440000057220459" ElementType="Text" FriendlyName="'yair'" FullSelectorArgument="&lt;webctrl id='ybarAccountMenuOpener' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl id='ybarAccountMenuOpener' tag='LABEL' type='' class='rapid-nonanchor-lt _yb_155sk _yb_14yy7' aaname='    ' check:text='yair' /&gt;" Guid="9a7c3d77-b136-48f0-934c-64a277417fb2" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFwAAAAyCAYAAADREbxyAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAMWSURBVHhe7ZvPihNBEMb3DbzuE+ToSbx587rHPIQooh4EWREkB4WAHlYE/xwkLAhz8CAIKiwS0IVlDxIVyV5kUdQgghHFqBjKrybVSSeZGWXRqs5Mf/CxpLunZ/hNT3VN9+zS8mWi0Hx4nWjzDZVSwQE/+VCurKQKCviFJ3JVJVYwwKsAmxUE8LKHEV/mwHmCrJLMgZc1G8mTKfDTG3IVFZIp8Nef5SoqJDPgVZoofZkBt4zdgy9E3WdE7e2Jux9Q/lMa/EeZAD9wU86urP4O0eoZon1Hst18Kg33om/oH4Oo+0l+58gEuEU46SD9rGVA9r1X4Mn5v+/DBPj6czm7kgabM7CPEh27PR1SWtfgF3KAL4zYLa5H+wf42/su5SyEoD4m/ta5Sd+Nx6OyPkZ8lkyAb7+Ts2toSLR2ahp28lbqioTj2rgJc08Fjl99JG0wmqfqfN+QNjMyAd77KmfX0EuiQx6I+h0p/4M6tybH1E4AMuDXj0/K1tDvwgD/8UvOrqDe/WkQKShogFHuhxTnPldi8qu7Y/B0dDDaUyHkuJtX84AGH8M11bs3gcFO3meXO29xnX+TrkpMZn/ESHfliNu7o67CB645wvuIt2N4sBvhhcBz6mbNbVnBA1eN4a+IVjxIczF8Jg7PAUfcXkHuPmdA7o56CB+4apYCtc56AJFl3EVoGCsDOKeR47KLEtcLFPPwGQ0wGfqZSpqHI+tIkDMnV7xyOA0TyLUbaOPK6shY+NXfxXJeFmi1065T+cDrLTwhoeXhFm+auwgT+wVKkV1c7uEaC9t7WUobE2tRvS8T4JZrKc1G9is+59rNDTwN0pZVtPZy0N+pwmi+7o3y1CEBZ5vu9Mgr+dj+63qWUO+3z11V9NrltTEDHtfDDRx3fJQd9zQNHHftlR2/SzFw/PLKwPHbQgPHr2cNXPbwEhxwdvwPCCNznl62l6OggTtzmCnLiF8I4M68ysjweT2dNzF450hzu+5faKGAl8ERuLIjcGVH4MqOwJUdgSs7Ald2BK7sCFzZEbiyI3BlLy1fGlK0lof0GyS4Fc1ma7PtAAAAAElFTkSuQmCC" InformativeScreenshot="cc6ace12cd41c901fd5396d7285c817b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Yahoo | Mail, Weather, Search, Politics, News, Finance, Sports &amp;amp; Videos' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Sign out'" sap:VirtualizedContainerService.HintSize="533.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="eeba32c1-f01a-4fac-89c9-489cf51f4236" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.yahoo.com/" DesignTimeRectangle="1403, 817, 74, 26" DesignTimeScaleFactor="1.440000057220459" ElementType="Text" FriendlyName="'Sign out'" FullSelectorArgument="&lt;webctrl aaname='Sign out' parentid='profile-signout-link' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Sign out' parentid='profile-signout-link' tag='SPAN' type='' class='_yb_havz1 _yb_jkfpk _yb_vw5ei' check:innerText='Sign out' /&gt;" Guid="c4307efd-4526-4083-a7b3-0568dec1574d" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAE4AAAAeCAYAAACCJCjqAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAUJSURBVGhD7Vj7U1VVFO6vaRqnMntNGWMMQ2RJig+E8N2UZQrpaBrmK3tMCTbJQ0Wd5JrefgFF8DU5pSOKIwGiXB7xHAOSN8QbBljNt9jrds6+93bt3KtNcL6ZPXfOOms/1rfX/vY69zGyYQk2cRZhE2cRNnEWYRNnETZxFmETZxE2cRbhlbiBgQG6XVpKNwoK6FZhIbV3dND4+Lh6O4m8c+dpxarVVFFZqSzTCybixsbG6Himg56aOYsef2KGqW3dlkjDw8PsNzo6Sjt27mJ7ztmzbJtuMBF3JieHZjz5NH24Pp5KSm5TV1cXlZW5mMwvv/qaBoeGlCfxu7t3y2hkZERZphYaGxspJTWNnM4flcUMN3H9/f20bv0GipwfRX/cv6+s0xeQKJyopOT9ymKGmzhkUPTSWNq4aTMNDg4qq28UFRXTgZRUqq+vVxZiHaysrOKdem/tB/x75epVys+/Tt8fz6SfLl9mP/Q9nHGEWltbqbq6mpL3f0uxccso8dMdVFxcQhMTE+znD/Az9t8Qn0C5uXke68c8mC/79BmWGSOwfsQha0MCZToc9EnidiYu5u04fq/H6pFxIXNCyVVerqy+kZWVzQNjZwDoY1r6QT7qEXPfpN2f7aWFi6PZ5/kXX6JFS6Lp6LFj7Iu+8Fu5eg3NfOZZznI02NAgGf4AiUhNS2d/aHLUwsUUFh7B882LnE9VVb8pT6La2joKDQunzVs+NskNoGeWJBBsepNYAa8aNztkDp085aT29nb1xhM6cdDEWc+9wDsDEgH84lnfDOmLjOzt7VVWYs2E75p33qU/DXZvkDH2fv4F9fX1sQ0ZiPWAJGQgMg34N8QJfNkFJuJw1HLzzjFx6AQScVEgIL0c0YnD88uvhFB5RQU/C6praujV0DB+L9D7CnDEIBXYcey8L3R2dlJMbBwtW77S6+bK+DLnQydOgCzIyj7tPmpo+5KSacgwqR48npFxyDwjQCQIlSAAva8AQSE4f8SV3rnDc32zL8mrHjY0NFB4xOtcMkHTHhlxAiwK2bZkaQxnnwgooAcvi9uydRv19PSwDUcIz7DjvSBQ4iQo42YYITolRD1y4gQYBMQZB9GDZ325VcgaBV/suOjlz79cMWVGsIhzOE4oixktLS20IGrRf0+cHLd/Ik4ugrXvr+MSBJ9rKJ716x8IlDgUp2/Mi+TyxVsBLhfVdwdS+PmhEocB6+rqPS4BZMqJH07yIKecTmX1DF4Wd/HiJa+6Y0SgxIGsXbv3cJlTcPOmsk4C39n4PMQ7fG8DkoEof0RGBAETJ7qAegrO5y9c4IZbDkdu+YpV1NbWprw9g29qaqK3FkSxTZrUbyhMEaBsSqDEAbitUS9CCg4dzuAMhwYj4zG2sSwSomHHhYGCHP4ZR47yjQ+7TpBkNZIBZRr6oLgXmDIu/eAhdykiDaTFJ3xEzc3NynMSevC4cTE5ilBcJtKMhe21a/nsGwziAKwJa8PYsl4QgUCFNEFHRyclbNzk9pO48q/fYIJ04nBqkDhGPrBugYfGoQOKTywcDcH4g+woCtfu7m5l/Ru4mXWNDCawRqwVx1CXGh34QoIvfh8E2ACMq4/9QJeDP4iG+CJGLhcR66mAoBCH3cAnDjTn16Ii9zHBr8vlYlE2ivVUQFCIA/CPx2sRc916YGywQ1z93bb/JwSNOAAZVlNbyzeWtHv3fvcQ6qmAoBI3nWATZwlEfwFCw5mwwcQYDgAAAABJRU5ErkJggg==" InformativeScreenshot="57f14fd9eaaa230430d926cfdc7f8d19.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Yahoo | Mail, Weather, Search, Politics, News, Finance, Sports &amp;amp; Videos' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="1292, 745, 35, 35" ElementType="Icon" FriendlyName="'SVG'" FullSelectorArgument="&lt;webctrl idx='4' parentid='ybarAccountMenuBody' tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='ybarAccountMenuBody' tag='svg' class='_yb_1c5lv _yb_1url2' aaname='' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACcAAAAnCAYAAACMo1E1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAALySURBVFhH7ZeBjeJADEXpADqADqAD6AA6gA6gA+gAOoAOoAPogBIogRJyerl19DF2wl5y0t3pvmRlmfHYf8Z/nGyv+IPx75O73W5v1gVakXs+n8VkMil6vd6bMc58G7Qit9/vQ2JmzLfBR+Qej0dZKp6K5XJZEeHv7Xb7NqbI4mRoJHc8Hqtk2OFw+Jopiul0Wo3f7/dyjKeNMW9gnY0PBoMybhNqyXliZrPZrLhery9jCh3HD38dM2simJLzxIbD4ctvtfF4/LXqJ/gd+WE+Th3BkBy3jKO3AKad8/lc9Pv9l+CYTxCdOOtYD1SXWHarQ3KqG78YMc/n8zLZer1Oxc048/jhr378rfFNrx5pWbU0aKZLqAb10nik5NidlpA20QWIYzGJn508SMkBr51MG5fLpdjtduWJ8OR3BF9O02CGlBw6IIkG88Cn7vXltcTm1If4md7AS0Z2kiWLur3e6MiY92XzN9WMvP4kK3JNyXwSFTW9CwnQcHmqVv1l8qVV85upyGnHJzi3CPHy8vbENEEkan4rwWieuMQnj/rCwxCSq7veQH3pYREYNx9NGIF8ke/fR47ao5XNZlN+TURlUd9oXvUbzRPX2o/6huRYoLX35hPobgl+Op3KbzWemsxXgdZhc97Ir720Ige4ytkXRdRK6jaDMe83lbUS8qatxIMd4qwBPPDJNsN4UxMm/sdN2OPT1xdJrC3w9CdgiMjVISVHOVQ7JO0CxLGYxPdlV6Tk9DXW1Fq+C71M5MkQkvM3SsvJTheLRTEajcpWk+2cceY5HfzVz5c364MhOQLp4tVqVY6jES21mf//NPpMZ51pjHg6l2k5LatPwEnpbzVfmuzLBvNxyJMhJQeiE8DQjL5RMIWO46caU6sjBmrJAQJYs+WpJdSk1q9Ur3qRWKdNu4kYaCQH0CAn4MWv3R4d8a5UPUVvlShOho/IZeA0jEhk/qJ8F63IccvqXl/ZLfwUrcgZKJW3LtAJud+F/+R+DUXxA/jbjcpl+euMAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uta:VerifyControlAttribute AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Control Attribute" sap:VirtualizedContainerService.HintSize="533.6,267.2" sap2010:WorkflowViewState.IdRef="VerifyControlAttribute_1" Operator="Equality" OutputArgument="TextString" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False">
+              <uta:VerifyControlAttribute.ActivityToTest>
+                <ActivityAction>
+                  <uix:NGetText DisplayName="Get Text 'Sign in'" sap:VirtualizedContainerService.HintSize="333.6,157.6" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="eeba32c1-f01a-4fac-89c9-489cf51f4236" TextString="[SignIn]" Version="V3">
+                    <uix:NGetText.OutUiElement>
+                      <OutArgument x:TypeArguments="ui:UiElement">
+                        <VariableReference x:TypeArguments="ui:UiElement">
+                          <VariableReference.Variable>
+                            <Variable x:TypeArguments="ui:UiElement" Name="_autogenerated_OutUiElement" />
+                          </VariableReference.Variable>
+                        </VariableReference>
+                      </OutArgument>
+                    </uix:NGetText.OutUiElement>
+                    <uix:NGetText.Target>
+                      <uix:TargetAnchorable BrowserURL="https://www.yahoo.com/" DesignTimeRectangle="1528, 253, 99, 38" DesignTimeScaleFactor="1.440000057220459" ElementType="Text" FriendlyName="'Sign in'" FullSelectorArgument="&lt;webctrl parentid='ybarAccountProfile' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='ybarAccountProfile' tag='A' type='' class='_yb_16vny' /&gt;" Guid="85812acc-9a8b-4c2a-a322-9a4395e2a8ad" InformativeScreenshot="02779ebb1dcda19fb9bd72f0c3a332c0.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Yahoo | Mail, Weather, Search, Politics, News, Finance, Sports &amp;amp; Videos' /&gt;" SearchSteps="FuzzySelector" Version="V1" Visibility="Interactive" />
+                    </uix:NGetText.Target>
+                    <uix:NGetText.WordsInfo>
+                      <OutArgument x:TypeArguments="scg:IEnumerable(uuam:NWordInfo)">
+                        <VariableReference x:TypeArguments="scg:IEnumerable(uuam:NWordInfo)">
+                          <VariableReference.Variable>
+                            <Variable x:TypeArguments="scg:IEnumerable(uuam:NWordInfo)" Name="_autogenerated_WordsInfo" />
+                          </VariableReference.Variable>
+                        </VariableReference>
+                      </OutArgument>
+                    </uix:NGetText.WordsInfo>
+                  </uix:NGetText>
+                </ActivityAction>
+              </uta:VerifyControlAttribute.ActivityToTest>
+              <uta:VerifyControlAttribute.ArgumentsBridgeActivity>
+                <ActivityFunc x:TypeArguments="x:Object">
+                  <uta:ArgumentsBridge sap2010:WorkflowViewState.IdRef="ArgumentsBridge_1">
+                    <uta:ArgumentsBridge.Input>
+                      <InArgument x:TypeArguments="x:Object">
+                        <VariableValue x:TypeArguments="x:Object">
+                          <VariableValue.Variable>
+                            <Variable x:TypeArguments="x:String" Name="_autogenerated_TextString" />
+                          </VariableValue.Variable>
+                        </VariableValue>
+                      </InArgument>
+                    </uta:ArgumentsBridge.Input>
+                  </uta:ArgumentsBridge>
+                </ActivityFunc>
+              </uta:VerifyControlAttribute.ArgumentsBridgeActivity>
+              <uta:VerifyControlAttribute.Expression>
+                <InArgument x:TypeArguments="x:String">["Sign in"]</InArgument>
+              </uta:VerifyControlAttribute.Expression>
+            </uta:VerifyControlAttribute>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAJdSURBVFhHY0hgvPR/IPGoA0YdMHwdUKN36/+TK99R8Lq6FxjqaOaAY0ve/UcHzZZ3MNTRxAEF0tf+//71D2otBDw49w2rWpo4YEvHK6i1CDAz5hFWtVR3QBr35f9f3v2BWgsB757++p/Mil09VgfcPvYFqhUCDs55i6FmfcMLqCwE3DnxFSy+OOcpVAQBVlU8x9APw1gdMCXkAVQrBPz4+vd/psAVuHwSyyWwr5DBtIiH/xOZLv1/cfsHVAQCfnz5+z9L8CqK+cgYqwMSmS/9f33/J9QICFia/xQuj+7Ad09+gR01MQBVHAT2THmDYjY6xpkGlhagBuWz69/hctf2fYaKQsDqSkgQ3ziEGnV///77X6ZyA64PG8bpgAzeK/+/fURNTB2Od/9Xat6E8iDg57e//7OFr/5P5bwMDn5kfGAWZtpBxzgdAMLbe1Cz06nVH/7vnvQayoMAZEtAjk5hv4xiBiGM1wFFctf///mNKFBA7G+fUEOlSvvm/xyRq/8v7fj0/9+/f2A1IEdiMw8bxusAED6x4j3UKkxwedcnsJojCzGL3emRDzHMwoYJOqDR7DbUSEzQ530frObJ1e9QEQTY2IRZ8WDDBB0AwreOoKZuEHh+8wdcfs/UN1BRCABFRYs1ZsWDDRPlgMlBmPl7UfYTuDyo+N077c3/Nw9//n94/hu4UELWjw8T5YB+n/tQayHg64c//9N5ECUjJZgoB6AXPKDsiU0dOZigA2oNbkGthYC/f/79L1a4jlUtOZigA44uQs1ip9d+wKqOXExUFNASjzpg1AED7IBL/wEEb/bMxqNS/AAAAABJRU5ErkJggg==" InformativeScreenshot="1355e046ada12ba2698587ed6c41dd64.jpg" Selector="&lt;html app='chrome.exe' title='Golden State Warriors on Yahoo! Sports - News, Scores, Standings, Rumors, Fantasy Games' /&gt;" Url="https://sports.yahoo.com/nba/teams/golden-state/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
